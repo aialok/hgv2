@@ -3,7 +3,7 @@ import ExpressApp from "./config/ExpressApp";
 import { PORT } from "./config/index";
 import apiRoutes from "./routes";
 import { dbConnect } from "./config/db.config";
-import logger from "./utils/logger.utils";
+import logger from "./libraries/logger";
 import {
   errorMiddleware,
   loggingMiddleware,

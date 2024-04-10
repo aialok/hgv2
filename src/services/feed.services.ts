@@ -1,6 +1,6 @@
 import InterfaceFeed from "../models/feed.model";
 import feedRepository from "../repositories/feed.repository";
-import logger from "../utils/logger.utils";
+import logger from "../libraries/logger";
 
 const createFeed = async (data: InterfaceFeed) => {
   try {

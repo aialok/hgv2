@@ -1,5 +1,5 @@
 import { Application, Request, Response } from "express";
-import logger from "../utils/logger.utils";
+import logger from "../libraries/logger";
 
 export default async (app: Application) => {
   app.get("/", (req: Request, res: Response) => {
